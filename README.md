@@ -1,4 +1,4 @@
-# Zipcall - Decentralized Video Chat
+# Preneur Lab Calls - Decentralized Video Chat
 
 [![Author](https://img.shields.io/badge/Author-ianramzy-brightgreen.svg)](https://ianramzy.com)
 ![License: CC-NC](https://img.shields.io/badge/License-CCNC-blue.svg)
@@ -7,10 +7,10 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?)](https://github.com/prettier/prettier)
 [![Join the chat at https://gitter.im/zipcall](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/zipcall)
 
-# https://zipcall.io
+
 
 Decentralized video chat platform powered by WebRTC using Twilio STUN/TURN infrastructure.
-Zipcall provides video quality and latency simply not available with traditional
+Preneur Lab Calls provides video quality and latency simply not available with traditional
 technology.
 
 ![screenshot](public/images/readmecall.png "Video Calling")
@@ -32,11 +32,11 @@ technology.
 
 - You will need to have Node.js installed, this project has been tested with Node version 10.X and 12.X
 - Clone this repo
-
+<!-- 
 ```
 git clone https://github.com/ianramzy/decentralized-video-chat
 cd decentralized-video-chat
-```
+``` -->
 
 #### Set up credentials
 
