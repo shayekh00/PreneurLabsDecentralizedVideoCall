@@ -664,7 +664,7 @@ function startSpeech() {
         // subtracting as many complete 100 char slices from start
         dataChanel.send(
           "cap:" +
-            interimTranscript.substring(interimTranscript.length - charsToKeep)
+          interimTranscript.substring(interimTranscript.length - charsToKeep)
         );
       }
     }
@@ -742,14 +742,14 @@ function addMessageToScreen(msg, isOwnMessage) {
   if (isOwnMessage) {
     $(".chat-messages").append(
       '<div class="message-item customer cssanimation fadeInBottom"><div class="message-bloc"><div class="message">' +
-        msg +
-        "</div></div></div>"
+      msg +
+      "</div></div></div>"
     );
   } else {
     $(".chat-messages").append(
       '<div class="message-item moderator cssanimation fadeInBottom"><div class="message-bloc"><div class="message">' +
-        msg +
-        "</div></div></div>"
+      msg +
+      "</div></div></div>"
     );
   }
 }
@@ -867,7 +867,7 @@ function startUp() {
   }
 
   // Set tab title
-  document.title = "Zipcall - " + url.substring(url.lastIndexOf("/") + 1);
+  document.title = "Preneur Lab Calls - " + url.substring(url.lastIndexOf("/") + 1);
 
   // get webcam on load
   VideoChat.requestMediaStream();
